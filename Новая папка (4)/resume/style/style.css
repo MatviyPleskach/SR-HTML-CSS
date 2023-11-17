@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(56, 56, 56);
+}
+.MainFrame {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 666px;
+    position: relative;
+    background-color: #F0F0F6;
+}
+.LongInfo{
+    left: 5px;
+    right: 5px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.Me{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.prof{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.myphoto {
+    width: 116px; 
+    height: 112px; 
+    object-fit: cover; 
+    border-radius: 50%;
+    position: relative;
+    
+}
+.Maintext{
+    font-size: 11px;
+    
+}
+.Work{
+    font-size: 11px;
+}
+.greytext{
+    margin-top: -10px;
+    color: rgba(128, 128, 128, 0.705);
+    font-size: 9px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.list1>li{
+    margin-bottom: 7px;
+}
+.Profile,.Workexp, .Education {
+    width: 90%;
+}
